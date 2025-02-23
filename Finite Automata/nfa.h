@@ -1,7 +1,5 @@
 /*
  * File: nfa.h
- * Creator: George Ferguson
- * Created: Thu Sep  1 17:54:41 2016
  */
 
 #ifndef nfa_h
