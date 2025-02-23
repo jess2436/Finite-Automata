@@ -1,16 +1,10 @@
 /**
  * IntHashSet.c
- * Author: George Ferguson
  *
  * Hashtable implementation of a set of ints.
- * @see FOCS pp. 360-363, 415
  *
- * This is a weak example of a set implementation.
- * It doesn't do anything smart about set operations other
- * than making it easy to add an element (int) to the set.
- * And it isn't very smart about that either, to be honest.
+ * This is an example of a set implementation.
  *
- * YOU could probably do better...
  */
 #include <stdlib.h>
 #include <stdbool.h>
@@ -94,7 +88,6 @@ static int IntHashSet_hash(IntHashSet this, int element) {
  * Otherwise, pL points to a Node. If that Node's element
  * is the same as i, then i is already in the set and there
  * is nothing to do. Otherwise, try the next node in the list.
- * @see FOCS Fig 7.14 p. 365
  * We return true if the element was added or false if it was
  * already there, to support keeping track of the count of elements.
  */
