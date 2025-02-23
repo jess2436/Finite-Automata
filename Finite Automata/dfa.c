@@ -1,8 +1,5 @@
 /*
  * File: dfa.c
- * Authors: Jessica Chen, Shadiya Akhter
- * CSC 173 | George Ferguson | Project 1
- * Last Modified: 09/07/24
  */
 
 #include <stdio.h> 
