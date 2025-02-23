@@ -1,8 +1,5 @@
 /*
  * File: nfa.c
- * Authors: Jessica Chen, Shadiya Akhter
- * CSC 173 | George Ferguson | Project 1
- * Last Modified: 09/14/24
  */
 
 #include <stdio.h>
