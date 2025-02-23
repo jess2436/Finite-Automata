@@ -1,7 +1,5 @@
 /*
  * File: strdup.c
- * Creator: George Ferguson
- * Created: Tue Aug  8 10:05:19 2017
  *
  * Incredibly, strdup is in string.h but not part of ANSI standard C.
  */
